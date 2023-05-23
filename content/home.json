@@ -74,5 +74,20 @@
       "kategorie": "Filter 1",
       "image": "img/TASCHENLAMPE-2.gif"
     }
+  ],
+  "week": [
+    {
+      "title": "KW4",
+      "galery": [
+        {
+          "type": "image",
+          "image": "img/Bildschirmfoto 5783-07-21 um 13.32.20.png",
+          "kategorie": [
+            "Filter 1",
+            "Filter 3"
+          ]
+        }
+      ]
+    }
   ]
 }
