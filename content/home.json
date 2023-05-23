@@ -45,5 +45,21 @@
     {
       "image": "img/TASCHENLAMPE-2.gif"
     }
+  ],
+  "galery": [
+    {
+      "type": "image",
+      "image": "img/Bildschirmfoto 5783-07-21 um 13.32.20.png",
+      "kategorie": "Filter 1"
+    },
+    {
+      "type": "video",
+      "videolink": "https://famous-faloodeh-c9624f.netlify.app/img/IMG_7355.MOV"
+    },
+    {
+      "type": "image",
+      "image": "img/TASCHENLAMPE-2.gif",
+      "kategorie": "Filter 2"
+    }
   ]
 }
