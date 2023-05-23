@@ -88,6 +88,25 @@
           ]
         }
       ]
+    },
+    {
+      "title": "KW 5",
+      "galery": [
+        {
+          "type": "image",
+          "image": "img/Bildschirmfoto 5783-08-07 um 10.43.55.png",
+          "kategorie": [
+            "Filter 3"
+          ]
+        },
+        {
+          "type": "video",
+          "kategorie": [
+            "Filter 2"
+          ],
+          "videolink": "https://famous-faloodeh-c9624f.netlify.app/img/IMG_7355.MOV"
+        }
+      ]
     }
   ]
 }
