@@ -187,31 +187,14 @@ export default function Home(props) {
                             >
                                 {
                                     slideImage.type === 'video' &&
-                                    <div className={styles.eachslidevideo}
-                                        key={index}
-                                    >
+                                    // <div className={styles.eachslidevideo}
+                                    //     key={index}
+                                    // >
 
-                                        {/* <iframe src="https://player.vimeo.com/video/81007030?h=62949ac305&color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                                        <p><a href="https://vimeo.com/81007030">ECAL/Photography - Class of Sannwald</a> from <a href="https://vimeo.com/ecal">ECAL</a> on <a href="https://vimeo.com">Vimeo</a>.</p> */}
-                                        {/* <ReactPlayer
-                                            url={slideImage.videolink}
-                                            // controls={true}
-                                            onMouseOver={event => event.target.play()}
-                                            onMouseOut={event => event.target.pause()}
-                                        /> */}
-                                        {/* <video
-                                            // poster="https://i.imgur.com/Us5ckqm.jpg"
-                                            // onMouseOver={e => e.target.play()}
-                                            onMouseOut={e => e.target.pause()}
-                                            controls={true}
-                                            src={slideImage.videolink}
-                                            width="600px"
-                                            // height="800px"
-                                        >
-                                        </video> */}
+                                      
                                         <video
                                             controls
-                                            width="100%"
+                                            width="600px"
                                             onMouseOut={event => event.target.pause()}
                                         >
                                             <source src={slideImage.videolink}
@@ -220,32 +203,8 @@ export default function Home(props) {
                                             />
                                             Sorry, your browser doesn't support embedded videos.
                                         </video>
-                                        {/* <ReactPlayer
-                                            // url="https://vimeo.com/3155182"
-                                            url={slideImage.videolink}
-                                            controls
-                                            // onMouseOut={event => event.target.pause()}
-                                        /> */}
-                                        {/* <ReactPlayer
-                                            url={slideImage.videolink}
-                                            controls={true}
-                                            width='100%'
-                                            height='100%'
-                                        /> */}
-                                        {/* <ReactPlayer
-                                            className={styles.slidevideo}
-                                            url={slideImage.videolink}
-                                            controls={false}
-                                            width='100%'
-                                            height='100%'
-                                            playing={props.playonclick}
-                                            pip={true}
-                                            autoPlay={false}
-                                        // onClick={props.setPlay}
-                                        // onClick={() => props.setPlay(true)}
-                                        // onPlay={() => props.setPlay(true)}
-                                        /> */}
-                                    </div>
+                                        
+                                    // </div>
                                 }
                                 {
                                     slideImage.type === 'image' &&
