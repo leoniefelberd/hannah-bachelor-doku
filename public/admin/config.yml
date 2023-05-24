@@ -11,35 +11,37 @@ collections:
         name: "home"
         file: "content/home.json"
         fields:
-          - label: "Wochen"
-            name: week
+          - label: "Galery"
+            name: galery
             widget: "list"
-            allow_add: true
-            fields:
-            - name: title
-              label: "Kalenderwoche"
-              widget: string
-            - label: "Galery"
-              name: galery
-              widget: "list"
-              types:
-                - label: "Image"
-                  name: "image"
-                  widget: "object"
-                  fields:
-                    - { label: "Image", name: "image", widget: "image" }
-                    - name: kategorie
-                      label: "Kategorie"
-                      widget: "select"
-                      multiple: true
-                      options: ["Filter 1", "Filter 2", "Filter 3"]
-                - label: "Video"
-                  name: "video"
-                  widget: "object"
-                  fields:
-                    - { label: "Videolink", name: "videolink", widget: "string" }
-                    - name: kategorie
-                      label: "Kategorie"
-                      widget: "select"
-                      multiple: true
-                      options: ["Filter 1", "Filter 2", "Filter 3"]
+            types:
+              - label: "Image"
+                name: "image"
+                widget: "object"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - name: kategorie
+                    label: "Filter"
+                    widget: "select"
+                    multiple: true
+                    options: ["Filter 1", "Filter 2", "Filter 3"]
+                  - name: kalenderwoche
+                    label: "KW"
+                    widget: "select"
+                    multiple: false
+                    options: ["KW 4", "KW 5", "KW 6"]
+              - label: "Video"
+                name: "video"
+                widget: "object"
+                fields:
+                  - { label: "Videolink", name: "videolink", widget: "string" }
+                  - name: kategorie
+                    label: "Filter"
+                    widget: "select"
+                    multiple: true
+                    options: ["Filter 1", "Filter 2", "Filter 3"]
+                  - name: kalenderwoche
+                    label: "KW"
+                    widget: "select"
+                    multiple: false
+                    options: ["KW 4", "KW 5", "KW 6"]

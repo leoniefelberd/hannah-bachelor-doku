@@ -42,6 +42,11 @@
     {
       "type": "image",
       "kategorie": "Filter 1",
+      "image": "img/TASCHENLAMPE-2.gif"
+    },
+    {
+      "type": "image",
+      "kategorie": "Filter 1",
       "image": "img/Bildschirmfoto 5783-08-07 um 10.54.03.png"
     },
     {
@@ -68,45 +73,6 @@
       "type": "image",
       "kategorie": "Filter 1",
       "image": "img/Bildschirmfoto 5783-08-10 um 15.23.40.png"
-    },
-    {
-      "type": "image",
-      "kategorie": "Filter 1",
-      "image": "img/TASCHENLAMPE-2.gif"
-    }
-  ],
-  "week": [
-    {
-      "title": "KW4",
-      "galery": [
-        {
-          "type": "image",
-          "image": "img/Bildschirmfoto 5783-07-21 um 13.32.20.png",
-          "kategorie": [
-            "Filter 1",
-            "Filter 3"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "KW 5",
-      "galery": [
-        {
-          "type": "image",
-          "image": "img/Bildschirmfoto 5783-08-07 um 10.43.55.png",
-          "kategorie": [
-            "Filter 3"
-          ]
-        },
-        {
-          "type": "video",
-          "kategorie": [
-            "Filter 2"
-          ],
-          "videolink": "https://famous-faloodeh-c9624f.netlify.app/img/IMG_7355.MOV"
-        }
-      ]
     }
   ]
 }
