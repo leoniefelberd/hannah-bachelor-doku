@@ -209,12 +209,22 @@ export default function Home(props) {
                                             // height="800px"
                                         >
                                         </video> */}
-                                        {/* <video controls width="100%">
-                                            <source src={slideImage.videolink} type="video/mp4" />
+                                        <video
+                                            controls
+                                            width="100%"
+                                            onMouseOut={event => event.target.pause()}
+                                        >
+                                            <source src={slideImage.videolink}
+                                            //  type="video/mp4" 
+
+                                            />
                                             Sorry, your browser doesn't support embedded videos.
-                                        </video> */}
+                                        </video>
                                         {/* <ReactPlayer
-                                            url="https://vimeo.com/3155182"
+                                            // url="https://vimeo.com/3155182"
+                                            url={slideImage.videolink}
+                                            controls
+                                            // onMouseOut={event => event.target.pause()}
                                         /> */}
                                         {/* <ReactPlayer
                                             url={slideImage.videolink}

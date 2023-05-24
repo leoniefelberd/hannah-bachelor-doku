@@ -34,7 +34,7 @@ collections:
                 name: "video"
                 widget: "object"
                 fields:
-                  - { label: "Videolink", name: "videolink", widget: "string" }
+                  - { label: "Videolink", name: "videolink", widget: "file" }
                   - name: kategorie
                     label: "Filter"
                     widget: "select"
