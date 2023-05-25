@@ -3,12 +3,89 @@ import React, { Component, useEffect } from 'react'
 import styles from "../styles/Home.module.scss";
 import home from "../content/home.json"
 import ReactPlayer from "react-player"
-
 import ReactDOM from "react-dom";
 
 
+import FilterElement from '../components/FilterElement/FilterElement';
+
 export default function Home(props) {
 
+
+
+
+    //FILTER
+
+    // const allKategories = ["Auftragsarbeit", "Freie Arbeiten", "Vermittlung"];
+    // const [filter, setFilter] = useState([])
+
+    // //nach Kategorie filtern
+    // function filterBy(data, filterterms) {
+    //     return data.filter((obj) => {
+    //         return filterterms.every((term) => {
+    //             return obj.kategorie.toString().includes(term);
+    //         })
+    //     })
+    // }
+
+    // const addMoreItem = (item) => {
+    //     const copyfilter = [...filter]
+    //     var index = copyfilter.indexOf(item);
+    //     if (index !== -1) {
+    //         copyfilter.splice(index, 1);
+    //         setFilter([...copyfilter])
+    //     }
+    //     else {
+    //         // wenn mehrere aktiviert sein sollen : setFilter([...filter, item])
+    //         setFilter([item])
+    //     }
+    // }
+
+    // const [filterdList, setFilterdList] = useState([])
+
+    // var allProjectItemsFiltered = []
+    // // console.log("before allProjectItemsFiltered", [...projektData.projekt])
+
+    // if (filter.length == 0) {
+    //     // console.log("allProjectItemsFiltered", allProjectItemsFiltered)
+    //     for (let i = 0; i < projektData.projekt.length; i++) {
+    //         // console.log("allProjectItemsFiltered[i]", allProjectItemsFiltered[i].title, allProjectItemsFiltered[i].showonstartsite)
+    //         if (projektData.projekt[i].showonstartsite == true) {
+    //             // allProjectItemsFiltered.splice(i, 1)
+    //             allProjectItemsFiltered.push(projektData.projekt[i]);
+    //         }
+    //     }
+    // } else {
+    //     allProjectItemsFiltered = [...projektData.projekt]
+    // }
+    // // console.log("after allProjectItemsFiltered", allProjectItemsFiltered)
+
+    // var allProjectItems = [...allProjectItemsFiltered, ...fakeprojektData.fakeprojekt]
+
+    // var filterdListRandom = [];
+    // while (allProjectItems.length !== 0) {
+    //     let randomIndex = Math.floor(Math.random() * allProjectItems.length);
+    //     filterdListRandom.push(allProjectItems[randomIndex]);
+    //     allProjectItems.splice(randomIndex, 1);
+    // }
+    // allProjectItems = filterdListRandom;
+
+
+    // useEffect(() => {
+    //     setFilterdList(filterBy(allProjectItems, filter))
+    // }, [filter])
+
+
+
+
+
+
+
+
+
+
+
+
+    // GALERY ITEM FUNCTIONS
     console.log("home", home);
 
     var space = -300;			// offset between neighboring items on Y and Z axis
@@ -161,6 +238,8 @@ export default function Home(props) {
             </Head>
 
             {/* hello hannah doku */}
+
+            {/* <FilterElement props={allKategories} filter={filter} addMoreItem={addMoreItem} setFilter={setFilter} /> */}
 
             {/* <body> */}
             <div

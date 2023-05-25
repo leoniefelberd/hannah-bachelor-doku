@@ -29,7 +29,7 @@ collections:
                     label: "KW"
                     widget: "select"
                     multiple: false
-                    options: ["KW 4", "KW 5", "KW 6"]
+                    options: ["KW 4", "KW 5", "KW 6", "KW 7"]
               - label: "Video"
                 name: "video"
                 widget: "object"
