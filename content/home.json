@@ -3,7 +3,8 @@
     {
       "type": "image",
       "kategorie": [
-        "Filter 1"
+        "Filter 1",
+        "Filter 2"
       ],
       "kalenderwoche": "KW 5",
       "image": "img/Bildschirmfoto 5783-07-21 um 13.32.20.png"
