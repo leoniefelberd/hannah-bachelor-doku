@@ -24,12 +24,12 @@ collections:
                     label: "Filter"
                     widget: "select"
                     multiple: true
-                    options: ["Filter 1", "Filter 2", "Filter 3"]
+                    options: ["Zeit","Zeitung","Zeiger", "Zeneggen","Zugeschicktes","Uhr","useless","testen","sammeln","Schatten","schreiben","Sonne", "signs", "struggle", "recherchieren", "projizieren", "Natur", "lesen", "loading bar","Kalender","Grid","experimentieren","beobachten","ausstellen"]
                   - name: kalenderwoche
                     label: "KW"
                     widget: "select"
                     multiple: false
-                    options: ["KW 4", "KW 5", "KW 6", "KW 7"]
+                    options: ["KW 6","KW 7","KW 8","KW 9","KW 10","KW 11","KW 12","KW 13","KW 14","KW 15","KW 16","KW 17","KW 18","KW 19","KW 20","KW 21","KW 22","KW 23"]
               - label: "Video"
                 name: "video"
                 widget: "object"
@@ -39,9 +39,9 @@ collections:
                     label: "Filter"
                     widget: "select"
                     multiple: true
-                    options: ["Filter 1", "Filter 2", "Filter 3"]
+                    options: ["Zeit","Zeitung","Zeiger", "Zeneggen","Zugeschicktes","Uhr","useless","testen","sammeln","Schatten","schreiben","Sonne", "signs", "struggle", "recherchieren", "projizieren", "Natur", "lesen", "loading bar","Kalender","Grid","experimentieren","beobachten","ausstellen"]
                   - name: kalenderwoche
                     label: "KW"
                     widget: "select"
                     multiple: false
-                    options: ["KW 4", "KW 5", "KW 6"]
+                    options: ["KW 6","KW 7","KW 8","KW 9","KW 10","KW 11","KW 12","KW 13","KW 14","KW 15","KW 16","KW 17","KW 18","KW 19","KW 20","KW 21","KW 22","KW 23"]

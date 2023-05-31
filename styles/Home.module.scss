@@ -12,11 +12,7 @@
 
 // $n: 100; //anzahl bilder
 
-// @mixin mobile {
-//   @media (max-width: 600px) {
-//     @content
-//   }
-// }
+
 
 
 // .logotest {
@@ -190,3 +186,9 @@
 //     }
 //   }
 // }
+
+@mixin mobile {
+    @media (max-width: 600px) {
+      @content
+    }
+  }

@@ -1,87 +1,92 @@
 @import '../../styles/Home.module.scss';
 
-// .sitetitle {
-//   // background-color: red;
-//   width: 40vw;
-//   padding: $main-padding $main-padding-side;
-//   position: fixed;
-//   font-family: "Titelschrift";
-//   font-size: $title-fontsize;
-//   letter-spacing: 1.25px;
-//   text-transform: uppercase;
-//   color: black;
-//   line-height: 1;
-//   // text-shadow: 1px 1px 3px white;
 
-//   z-index: 600;
-
-//   &:hover {
-//     cursor: pointer;
-//       text-decoration: underline;
-//     //     color: white;
-//     //     text-shadow: 0px 0px 5px black;
-//   }
-
-
-//   @include mobile {
-//     font-size: $mobile-title-fontsize;
-//   }
-// }
-
-// .categorywrapper {
-//   // background-color: blue;
-//   display: flex;
+.categorywrapper {
+  // background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
 //   justify-content: space-between;
 
-//   position: fixed;
-//   top: 0;
-//   right: 0;
-//   padding: $main-padding * 1.25 $main-padding-side;
-//   z-index: 600;
-//   width: 50vw;
+  position: fixed;
+  top: 0;
+  left: 0;
 
-//   @include mobile {
-//     flex-direction: column;
-//     width: 45vw;
-//   }
+  z-index: 600;
+  width: 92vw;
+//   border: 1px solid red;
+  padding: 2vw 3vw;
 
-//   .categorytitle {
-//     a {
-//       text-align: right;
-//       width: calc(50vw / 4);
-//       font-size: $main-fontsize;
-//       line-height: 1;
-//       font-family: "Titelschrift";
+  @include mobile {
+    // flex-direction: column;
+    // width: 45vw;
+  }
 
-//       @include mobile {
-//         font-size: $mobile-main-fontsize;
-//       }
+  .categorytitle {
+    display: flex;
+    cursor: pointer;
+    padding-right: 1vw;
+    padding-bottom: 0.15vw;
 
-//       &:hover {
-//         text-decoration: none;
-//         // text-shadow: 0px 0px 5px black;
-//         text-decoration: underline;
-//         cursor: pointer;
-//       }
+    &:nth-child(1) {
+      .bubble {
+        background-color: black;
+      } 
+    }
 
+    a {
+    //   text-align: right;
+    //   width: calc(50vw / 4);
+    //   font-size: $main-fontsize;
+    //   line-height: 1.25;
+    //   font-family: "Titelschrift";
 
-//     }
-//   }
+      @include mobile {
+        // font-size: $mobile-main-fontsize;
+      }
+      &:hover {
+        text-decoration: none;
+        // text-shadow: 0px 0px 5px black;
+        // text-decoration: underline;
+        // cursor: pointer;
+      }
+    }
+    .bubble {
+        width: 1em;
+        height: 1em;
+        border-radius: 100%;
+        background-color: transparent;
+        border: 1.5px solid black;
+        margin-right: 0.5vw;
+        
+      }
+  }
 
-//   .categorytitleactive {
-//     a {
-//       text-decoration: none;
-//       // text-shadow: 0px 0px 5px black;
-//       text-decoration: underline;
-//       text-align: right;
-//       width: calc(50vw / 4);
-//       font-size: $main-fontsize;
-//       font-family: "Titelschrift";
-//       line-height: 1;
+  .categorytitleactive {
+    display: flex;
+    cursor: pointer;
+    padding-right: 1vw;
+    padding-bottom: 0.15vw;
+    a {
+      text-decoration: none;
+      // text-shadow: 0px 0px 5px black;
+    //   text-decoration: underline;
+    //   text-align: right;
+    //   width: calc(50vw / 4);
+    //   font-size: $main-fontsize;
+    //   font-family: "Titelschrift";
+    //   line-height: 1;
       
-//       @include mobile {
-//         font-size: $mobile-main-fontsize;
-//       }
-//     }
-//   }
-// }
+      @include mobile {
+        // font-size: $mobile-main-fontsize;
+      }
+    }
+    .bubble {
+        width: 1em;
+        height: 1em;
+        border-radius: 100%;
+        border: 1.5px solid black;
+        background-color: black;
+        margin-right: 0.5vw;
+      }
+  }
+}

@@ -1,5 +1,5 @@
 import Head from "next/head"
-import React, { Component, useEffect } from 'react'
+import React, { Component, useEffect, useState } from 'react'
 import styles from "../styles/Home.module.scss";
 import home from "../content/home.json"
 import ReactPlayer from "react-player"
@@ -11,12 +11,10 @@ import FilterElement from '../components/FilterElement/FilterElement';
 export default function Home(props) {
 
 
-
-
     //FILTER
+    const allKategories = ["Zeit", "Zeitung", "Zeiger", "Zeneggen", "Zugeschicktes", "Uhr", "useless", "testen", "sammeln", "Schatten", "schreiben", "Sonne", "signs", "struggle", "recherchieren", "projizieren", "Natur", "lesen", "loading bar", "Kalender", "Grid", "experimentieren", "beobachten", "ausstellen"];
+    const [filter, setFilter] = useState(["Zeit"])
 
-    // const allKategories = ["Auftragsarbeit", "Freie Arbeiten", "Vermittlung"];
-    // const [filter, setFilter] = useState([])
 
     // //nach Kategorie filtern
     // function filterBy(data, filterterms) {
@@ -27,93 +25,83 @@ export default function Home(props) {
     //     })
     // }
 
-    // const addMoreItem = (item) => {
-    //     const copyfilter = [...filter]
-    //     var index = copyfilter.indexOf(item);
-    //     if (index !== -1) {
-    //         copyfilter.splice(index, 1);
-    //         setFilter([...copyfilter])
-    //     }
-    //     else {
-    //         // wenn mehrere aktiviert sein sollen : setFilter([...filter, item])
-    //         setFilter([item])
-    //     }
-    // }
+    const addMoreItem = (item) => {
+        const copyfilter = [...filter]
+        var index = copyfilter.indexOf(item);
+        if (index !== -1) {
+            copyfilter.splice(index, 1);
+            setFilter([...copyfilter])
+        }
+        else {
+            // wenn mehrere aktiviert sein sollen : setFilter([...filter, item])
+            setFilter([item])
+        }
+    }
 
-    // const [filterdList, setFilterdList] = useState([])
+    // const [filterdList, setFilterdList] = useState([...home.galery])
+    // const [pageSize, setpageSize] = useState(filterdList.length)
 
-    // var allProjectItemsFiltered = []
-    // // console.log("before allProjectItemsFiltered", [...projektData.projekt])
+    // useEffect(() => {
+    //     setFilterdList(filterBy(home.galery, filter))
 
-    // if (filter.length == 0) {
-    //     // console.log("allProjectItemsFiltered", allProjectItemsFiltered)
-    //     for (let i = 0; i < projektData.projekt.length; i++) {
-    //         // console.log("allProjectItemsFiltered[i]", allProjectItemsFiltered[i].title, allProjectItemsFiltered[i].showonstartsite)
-    //         if (projektData.projekt[i].showonstartsite == true) {
-    //             // allProjectItemsFiltered.splice(i, 1)
-    //             allProjectItemsFiltered.push(projektData.projekt[i]);
-    //         }
-    //     }
-    // } else {
-    //     allProjectItemsFiltered = [...projektData.projekt]
-    // }
-    // // console.log("after allProjectItemsFiltered", allProjectItemsFiltered)
+    // }, [filter])
+    // console.log("updated filtered List", filterdList)
 
-    // var allProjectItems = [...allProjectItemsFiltered, ...fakeprojektData.fakeprojekt]
 
-    // var filterdListRandom = [];
-    // while (allProjectItems.length !== 0) {
-    //     let randomIndex = Math.floor(Math.random() * allProjectItems.length);
-    //     filterdListRandom.push(allProjectItems[randomIndex]);
-    //     allProjectItems.splice(randomIndex, 1);
-    // }
-    // allProjectItems = filterdListRandom;
 
 
     // useEffect(() => {
-    //     setFilterdList(filterBy(allProjectItems, filter))
-    // }, [filter])
+    //     setpageSize(filterdList.length)
+
+    // }, [filterdList])
+    // console.log("updated page size", pageSize)
+    // console.log("filtered list", filterdList)
 
 
 
 
-
-
-
-
+    // console.log(pageSize)
 
 
 
 
     // GALERY ITEM FUNCTIONS
-    console.log("home", home);
+    // console.log("home", home);
 
     var space = -300;			// offset between neighboring items on Y and Z axis
     var angle = 3;
 
     // console.log(home.galery.length);
-    var pageSize = home.galery.length;			// number of items each page
+    // var weekitems = 0;
+    // console.log(home.week.length);
+    // for (var i = 0; i < home.week.length; i++) {
+    //     weekitems += home.week[i].galery.length;
+    //     // console.log("home.week[i].length", home.week[i].galery.length)		
+    // }
 
-    var MAX_SIZE = pageSize;
+    var pageSize = home.galery.length;	// number of items each page
+    // console.log("weekitems", weekitems)		
+
+    // var MAX_SIZE = pageSize;
     var data = [];				// position of each item
 
-
     var current_index = 1;		// the sequence number of current item
-    var max_index = pageSize;
+    // var max_index = pageSize;
 
     var page;
 
     useEffect(() => {
+        // pageSize = filterdList.length;	
         // const collection = document.getElementsByClassName('my-text');
         // the sequence number of the last item
         page = document.getElementById('page');	// the DOM element where the items are placed
 
         data.push(new Item(0, 0, 0));     //fill the first element data[0], so that the index == DOM li sequence
 
-        function Item(translate_y, translate_z, rotate_z) {	// data structure for storing the positions
+        function Item(translate_y, translate_z) {	// data structure for storing the positions
             this.translate_y = translate_y;
             this.translate_z = translate_z;
-            this.rotate_z = rotate_z;
+            // this.rotate_z = rotate_z;
         }
         for (var n = 1; n < pageSize + 1; n++) {			// put 10 items initially
             data.push(new Item(n * space, n * space, (n - 1) * angle));
@@ -161,12 +149,16 @@ export default function Home(props) {
         }
 
         function animate(n, y, opacity) {
-            if (n <= MAX_SIZE) {
+            if (n <= pageSize) {
+                // console.log("filterdList.length", filterdList.length, "pageSize", pageSize)
+
+
                 var new_y = data[n].translate_y + y;
                 var new_z = data[n].translate_z + y;
-                var new_rz = data[n].rotate_z + angle * y / space;		// calculate new position of n th item
+                // var new_rz = data[n].rotate_z + angle * y / space;		// calculate new position of n th item
 
                 var elementN = document.getElementById(n);
+                // console.log("elementN", elementN, n)
                 elementN.onclick = function () { jumpTo(n) };
                 // animate n th item with CSS3 translate3d and rotate3d methods
                 // elementN.style.webkitTransform = 'translateX(' + (-0.3 * new_y) + 'px) translateY(' + new_y + 'px) translateZ(' + new_z + 'px) ';
@@ -177,7 +169,7 @@ export default function Home(props) {
 
                 data[n].translate_y = new_y;
                 data[n].translate_z = new_z;
-                data[n].rotate_z = new_rz;						// save its new position
+                // data[n].rotate_z = new_rz;						// save its new position
             }
         }
 
@@ -192,14 +184,15 @@ export default function Home(props) {
                 for (var n = current_index; n < current_index + pageSize; n++) {	// update the positions of current visible items
                     animate(n, space, 1);
                 }
-                for (var n = current_index + pageSize; n <= max_index; n++) {	// update the positions of next invisible items
+                for (var n = current_index + pageSize; n <= pageSize; n++) {	// update the positions of next invisible items
                     animate(n, space, 0);
                 }
             }
         }
 
         function next() {
-            if (current_index < data.length && current_index < MAX_SIZE) {
+            if (current_index < data.length && current_index < pageSize) {
+                // console.log("current_index", current_index)
                 document.getElementById(current_index).style.opacity = 1;	//hide current item
                 current_index++;
                 // if (current_index + pageSize - 1 > max_index && max_index < MAX_SIZE) {	// maximum 60 items allowed
@@ -207,12 +200,15 @@ export default function Home(props) {
                 // }
                 for (var n = 1; n < current_index; n++) {		// update the positions of previous invisible items
                     animate(n, -1 * space, 0);
+                    // console.log("n next n = 1", n)
                 }
                 for (var n = current_index; n < current_index + pageSize; n++) {	// update the positions of current visible items
                     animate(n, -1 * space, 1);
+                    // console.log("n next n = current index", n)
                 }
-                for (var n = current_index + pageSize; n <= max_index; n++) {	// update the positions of next invisible items
+                for (var n = current_index + pageSize; n <= pageSize; n++) {	// update the positions of next invisible items
                     animate(n, -1 * space, 0);
+                    // console.log("n next n = current index + pagesize", n)
                 }
             }
         }
@@ -226,43 +222,64 @@ export default function Home(props) {
             <Head>
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-                {/* <meta charset="utf-8"></meta>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
-    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-    <meta name="description"
-        content="An Demonstration of CSS3 3D Time Machine Effect, inspired by @joecritchley's demo: http://joecritchley.com/demos/time-machine/"></meta>
-    <meta name="author" content="coderLMN"></meta>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <title>An Demonstration of CSS3 3D Time Machine Effect</title>
-    <link rel="shortcut icon" href="http://www.studycolony.com/img/favicon.ico"></link> */}
+
             </Head>
 
             {/* hello hannah doku */}
 
-            {/* <FilterElement props={allKategories} filter={filter} addMoreItem={addMoreItem} setFilter={setFilter} /> */}
+            <FilterElement props={allKategories} filter={filter} addMoreItem={addMoreItem} setFilter={setFilter} />
 
-            {/* <body> */}
+            <div class="sitetitle">
+                "Titel der Arbeit"<br></br>
+                Dokumentation<br></br>
+                <br></br>
+                Bachelorthesis 2023<br></br>
+                Hannah Boldt<br></br>
+                <br></br>
+                BA Visuelle Kommunikation<br></br>
+                Hochschule der Künste Bern
+            </div>
+
             <div
                 // className={styles.viewwrapper}
                 id="view"
             >
                 {/* <div  className={styles.timelinewrapper}> */}
                 <ul id="page">
-                    {/* {home.week.map((week, k) => ( */}
-                    {/* // return( */}
-                    {/* <div className={styles.weekwrapper} key={k}> */}
-                    {/* {week.title} */}
+                    {/* {home.week.map((week, k) => {
+                        return (
+                            // <div className={styles.weekwrapper} key={k}>
+                            // {week.title}
+                            <> */}
                     {home.galery.map((slideImage, index) => {
 
                         let zindexindividual = pageSize + 100 - index;
 
-                        console.log("slideImage", slideImage)
+                        let showdefinition = "block";
+                        // console.log(filter, slideImage.kategorie, filter[0] == slideImage.kategorie[0] || filter[0] == slideImage.kategorie[1])
+
+                        if (filter.length == 0) {
+                            showdefinition = "block"
+                            console.log("no filter aktiv, alle darstellen")
+                        }
+                        else if (filter[0] == slideImage.kategorie[0] || filter[0] == slideImage.kategorie[1]) {
+                            console.log(filter, slideImage.kategorie)
+                            showdefinition = "block"
+                        } else {
+                            showdefinition = "none"
+                        }
+
+                        index += 1;
+                        // console.log("slideImage", slideImage, index)
 
                         return (
-                            <li className={styles.slidewrapper}
+                            <li
+                                className={styles.slidewrapper}
+                                // className={[styles.slidewrapper, (filter ? styles.filter : [])].join(' ')}
                                 key={index}
-                                id={index + 1}
-                                style={{ 'zIndex': `${zindexindividual}` }}
+                                id={index}
+                                style={{ 'zIndex': `${zindexindividual}`, 'display': `${showdefinition}` }}
+
                             >
                                 {
                                     slideImage.type === 'video' &&
@@ -270,7 +287,7 @@ export default function Home(props) {
                                     //     key={index}
                                     // >
 
-                                      
+                                    <>
                                         <video
                                             controls
                                             width="600px"
@@ -282,7 +299,10 @@ export default function Home(props) {
                                             />
                                             Sorry, your browser doesn't support embedded videos.
                                         </video>
-                                        
+                                        {/* <div className="kalenderwoche">
+                                            {slideImage.kalenderwoche}
+                                        </div> */}
+                                    </>
                                     // </div>
                                 }
                                 {
@@ -291,35 +311,29 @@ export default function Home(props) {
                                     //     key={index}
 
                                     // >
-                                    <img
-                                        className={styles.slide}
-                                        src={slideImage.image}
-                                        width="600px"
-                                    />
+                                    <>
+                                        <img
+                                            className={styles.slide}
+                                            src={slideImage.image}
+                                            width="600px"
+                                        />
+                                        {/* <div className="kalenderwoche">
+                                            {slideImage.kalenderwoche}
+                                        </div> */}
+                                    </>
                                     // </div>
                                 }
                             </li>
                         )
                     })}
-                    {/* ) */}
-                    {/* </div> */}
+                    {/* </>
+                        )
+                    })} */}
                 </ul>
-                {/* ))} */}
-                {/* </div> */}
             </div>
-            {/* <article>
-          <h1>{title}</h1>
-          <HomeContent />
-          <ul>
-            {cats.map((cat, k) => (
-              <li key={k}>
-                <h2>{cat.name}</h2>
-                <p>{cat.description}</p>
-              </li>
-            ))}
-          </ul>
-        </article> */}
-            {/* </body> */}
+
+
+
         </>
     )
 }
