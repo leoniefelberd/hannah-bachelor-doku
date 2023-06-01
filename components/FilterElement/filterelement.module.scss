@@ -17,6 +17,7 @@
   padding: 2vw 3vw;
 
   @include mobile {
+    display: none;
     // flex-direction: column;
     // width: 45vw;
   }

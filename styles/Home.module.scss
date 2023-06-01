@@ -188,7 +188,7 @@
 // }
 
 @mixin mobile {
-    @media (max-width: 600px) {
+    @media (hover:none) {
       @content
     }
   }

@@ -229,15 +229,21 @@ export default function Home(props) {
 
             <FilterElement props={allKategories} filter={filter} addMoreItem={addMoreItem} setFilter={setFilter} />
 
-            <div class="sitetitle">
-                "Titel der Arbeit"<br></br>
-                Dokumentation<br></br>
-                <br></br>
-                Bachelorthesis 2023<br></br>
-                Hannah Boldt<br></br>
-                <br></br>
-                BA Visuelle Kommunikation<br></br>
-                Hochschule der Künste Bern
+            <div class="sitetitlewrapper">
+                <div class="mobileinfo">
+                    Bitte schaue die Website am Laptop an! :)
+                </div>
+                <div class="sitetitle">
+                    "Titel der Arbeit"<br></br>
+                    Dokumentation<br></br>
+                    <br></br>
+                    Bachelorthesis 2023<br></br>
+                    Hannah Boldt<br></br>
+                    <br></br>
+                    BA Visuelle Kommunikation<br></br>
+                    Hochschule der Künste Bern
+                </div>
+
             </div>
 
             <div
