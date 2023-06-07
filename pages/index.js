@@ -222,7 +222,9 @@ export default function Home(props) {
             <Head>
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-
+                <title>Dokumentation Bachelorthesis Hannah Boldt</title>
+                <link rel="icon" href="../Cursor-normal.png" />
+                <meta name="description" content="Dokumentation Bachelorthesis Hannah Boldt" />
             </Head>
 
             {/* hello hannah doku */}
@@ -246,6 +248,7 @@ export default function Home(props) {
 
             </div>
 
+
             <div
                 // className={styles.viewwrapper}
                 id="view"
@@ -266,10 +269,10 @@ export default function Home(props) {
 
                         if (filter.length == 0) {
                             showdefinition = "block"
-                            console.log("no filter aktiv, alle darstellen")
+                            // console.log("no filter aktiv, alle darstellen")
                         }
                         else if (filter[0] == slideImage.kategorie[0] || filter[0] == slideImage.kategorie[1]) {
-                            console.log(filter, slideImage.kategorie)
+                            // console.log(filter, slideImage.kategorie)
                             showdefinition = "block"
                         } else {
                             showdefinition = "none"
@@ -336,6 +339,16 @@ export default function Home(props) {
                         )
                     })} */}
                 </ul>
+            </div>
+
+            <div class="zeitstrahlwrapper">
+            KW23
+                <img
+                    class="zeitstrahl"
+                    src="../img/Weg-allblack.png"
+                    width="600px"
+                />
+                KW6
             </div>
 
 

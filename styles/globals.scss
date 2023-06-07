@@ -5,6 +5,10 @@ body {
   user-select: none;
   min-height: 200vh;
   font-family: "Favorit Mono";
+
+  // cursor: url(../public/Cursor-normal.png);
+  // cursor: cell;
+
 }
 
 
@@ -19,11 +23,11 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+ 
 }
 
 img {
   display: block;
-
 }
 
 html,
@@ -43,6 +47,22 @@ body {
   width: 30vw;
 }
 
+.zeitstrahlwrapper {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 2vw 3vw;
+  width: auto;
+  // background-color: red;
+  text-align: center;
+
+  img {
+    max-height: 80vh;
+    width: auto;
+   margin: auto;
+  //  border: 1px solid blue;
+  }
+}
 .mobileinfo {
   display: none;
 }
@@ -115,7 +135,8 @@ body {
 }
 
 #page li video {
-  cursor: pointer;
+  // cursor: pointer;
+  // cursor: url(./Cursor-hover.png) !important;
 }
 
 #page li:hover {
