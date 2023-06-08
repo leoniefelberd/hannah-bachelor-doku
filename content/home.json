@@ -2,6 +2,14 @@
   "galery": [
     {
       "type": "image",
+      "image": "img/test-1.png",
+      "kategorie": [
+        "Zeit"
+      ],
+      "kalenderwoche": "KW 6"
+    },
+    {
+      "type": "image",
       "image": "img/bildschirmfoto-2023-06-08-um-17.32.42.png",
       "kategorie": [
         "Zeit"
