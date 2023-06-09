@@ -2,7 +2,7 @@
   "galery": [
     {
       "type": "image",
-      "image": "img/bildschirmfoto-2023-06-08-um-17.32.42.png",
+      "image": "img/vorschau-doku.png",
       "kategorie": [
         "Zeit"
       ],
@@ -10,7 +10,7 @@
     },
     {
       "type": "image",
-      "image": "img/bildschirmfoto-2023-02-15-um-15.23.53.png",
+      "image": "img/img_6828.jpg",
       "kategorie": [
         "Zeit"
       ],
@@ -19,30 +19,26 @@
     {
       "type": "image",
       "kategorie": [
-        "Zeit",
-        "Zeitung"
+        "Zeit"
       ],
       "kalenderwoche": "KW 6",
-      "image": "img/Bildschirmfoto 5783-07-21 um 13.32.20.png"
+      "image": "img/bildschirmfoto-5783-09-20-um-21.49.13.png"
+    },
+    {
+      "type": "image",
+      "kategorie": [
+        "Zeit"
+      ],
+      "kalenderwoche": "KW 6",
+      "image": "img/img_6833.jpg"
     },
     {
       "type": "video",
       "kategorie": [
-        "Zeit",
-        "Zeitung"
+        "Zeit"
       ],
       "kalenderwoche": "KW 6",
-      "videolink": "img/IMG_7355_.mp4"
-    },
-    {
-      "type": "image",
-      "kategorie": [
-        "Zeit",
-        "Zeitung",
-        "Zeiger"
-      ],
-      "kalenderwoche": "KW 6",
-      "image": "img/Bildschirmfoto 5783-07-29 um 17.10.04.png"
+      "videolink": "img/IMG_7355.MOV"
     },
     {
       "type": "image",
