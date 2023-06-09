@@ -12,14 +12,18 @@
       "type": "image",
       "image": "img/img_6828.jpg",
       "kategorie": [
-        "Zeit"
+        "Zeit",
+        "Uhr",
+        "Gefundenes"
       ],
       "kalenderwoche": "KW 6"
     },
     {
       "type": "image",
       "kategorie": [
-        "Zeit"
+        "Zeit",
+        "Miro",
+        "Notizen"
       ],
       "kalenderwoche": "KW 6",
       "image": "img/bildschirmfoto-5783-09-20-um-21.49.13.png"
@@ -27,7 +31,8 @@
     {
       "type": "image",
       "kategorie": [
-        "Zeit"
+        "Zeit",
+        "Gefundenes"
       ],
       "kalenderwoche": "KW 6",
       "image": "img/img_6833.jpg"
