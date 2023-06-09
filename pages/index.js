@@ -236,9 +236,9 @@ export default function Home(props) {
                     Bitte schaue die Website am Laptop an! :)
                 </div>
                 <div class="sitetitle">
-                    "Titel der Arbeit"<br></br>
-                    Dokumentation<br></br>
+                    other times <br></br> 
                     <br></br>
+                    Dokumentation<br></br>
                     Bachelorthesis 2023<br></br>
                     Hannah Boldt<br></br>
                     <br></br>
