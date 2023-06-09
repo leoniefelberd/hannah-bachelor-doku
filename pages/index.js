@@ -12,7 +12,7 @@ export default function Home(props) {
 
 
     //FILTER
-    const allKategories = ["Zeit", "Zeitung", "Zeiger", "Zeneggen", "Zugeschicktes", "Uhr", "useless", "testen", "sammeln", "Schatten", "schreiben", "Sonne", "signs", "struggle", "recherchieren", "projizieren", "Natur", "lesen", "loading bar", "Kalender", "Grid", "experimentieren", "beobachten", "ausstellen"];
+    const allKategories = ["zeit", "zeitung", "zeiger", "zeneggen", "uhr", "testen", "sammeln", "schatten", "schreiben", "sonne", "struggle", "recherchieren", "projizieren", "natur", "notizen", "lesen", "loading bar", "kalender", "gefundenes", "experimentieren", "beobachten", "ausstellen"];
     const [filter, setFilter] = useState(["Zeit"])
 
 
