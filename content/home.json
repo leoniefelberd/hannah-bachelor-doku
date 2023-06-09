@@ -38,117 +38,73 @@
       "image": "img/img_6833.jpg"
     },
     {
-      "type": "video",
-      "kategorie": [
-        "Zeit"
-      ],
-      "kalenderwoche": "KW 6",
-      "videolink": "img/IMG_7355.MOV"
-    },
-    {
-      "type": "image",
-      "kategorie": [
-        "Zeit"
-      ],
-      "kalenderwoche": "KW 6",
-      "image": "img/Bildschirmfoto 5783-08-03 um 15.56.53.png"
-    },
-    {
-      "type": "image",
-      "kategorie": [
-        "Zeit",
-        "Zeitung"
-      ],
-      "kalenderwoche": "KW 6",
-      "image": "img/Bildschirmfoto 5783-08-05 um 15.03.23.png"
-    },
-    {
-      "type": "image",
-      "kategorie": [
-        "Zeiger",
-        "Zeit"
-      ],
-      "kalenderwoche": "KW 7",
-      "image": "img/Bildschirmfoto 5783-08-07 um 10.39.19.png"
-    },
-    {
-      "type": "image",
-      "kategorie": [
-        "Zeit",
-        "Zeitung"
-      ],
-      "kalenderwoche": "KW 7",
-      "image": "img/Bildschirmfoto 5783-08-07 um 10.43.55.png"
-    },
-    {
-      "type": "image",
-      "kategorie": [
-        "Zeit",
-        "Zeitung"
-      ],
-      "kalenderwoche": "KW 7",
-      "image": "img/Bildschirmfoto 5783-08-07 um 10.44.40.png"
-    },
-    {
       "type": "image",
       "kategorie": [
         "Zeit"
       ],
       "kalenderwoche": "KW 7",
-      "image": "img/TASCHENLAMPE-2.gif"
+      "image": "img/bildschirmfoto-2023-02-13-um-18.54.30.png"
     },
     {
       "type": "image",
       "kategorie": [
         "Zeit",
-        "Zeiger"
+        "Notizen"
       ],
-      "kalenderwoche": "KW 8",
-      "image": "img/Bildschirmfoto 5783-08-07 um 10.54.03.png"
+      "kalenderwoche": "KW 7",
+      "image": "img/bildschirmfoto-2023-02-13-um-18.56.20.png"
     },
     {
       "type": "image",
       "kategorie": [
         "Zeit",
-        "Zeiger"
+        "Sammeln",
+        "Recherchieren"
       ],
-      "kalenderwoche": "KW 8",
-      "image": "img/Bildschirmfoto 5783-08-07 um 10.58.10.png"
+      "kalenderwoche": "KW 7",
+      "image": "img/bildschirmfoto-2023-02-13-um-14.49.27.png"
     },
     {
       "type": "image",
       "kategorie": [
         "Zeit",
-        "Zeitung"
+        "Recherchieren",
+        "Lesen"
       ],
-      "kalenderwoche": "KW 8",
-      "image": "img/Bildschirmfoto 5783-08-07 um 11.19.56.png"
+      "kalenderwoche": "KW 7",
+      "image": "img/bildschirmfoto-5783-09-19-um-23.30.20.png"
     },
     {
       "type": "image",
       "kategorie": [
         "Zeit",
-        "Zeitung"
+        "Recherchieren",
+        "Lesen"
       ],
-      "kalenderwoche": "KW 9",
-      "image": "img/Bildschirmfoto 5783-08-07 um 12.00.42.png"
+      "kalenderwoche": "KW 7",
+      "image": "img/bildschirmfoto-2023-02-13-um-18.51.21.png"
     },
     {
       "type": "image",
       "kategorie": [
-        "Zeit"
+        "Zeit",
+        "Schreiben",
+        "Recherchieren",
+        "Lesen",
+        "Notizen"
       ],
-      "kalenderwoche": "KW 9",
-      "image": "img/Bildschirmfoto 5783-08-07 um 12.04.28.png"
+      "kalenderwoche": "KW 7",
+      "image": "img/bildschirmfoto-2023-02-15-um-15.23.53.png"
     },
     {
       "type": "image",
       "kategorie": [
-        "Zeitung",
-        "Zeit"
+        "Zeit",
+        "Lesen",
+        "Recherchieren"
       ],
-      "kalenderwoche": "KW 9",
-      "image": "img/Bildschirmfoto 5783-08-10 um 15.23.40.png"
+      "kalenderwoche": "KW 7",
+      "image": "img/thefunabulist_placing-time....png"
     }
   ]
 }
