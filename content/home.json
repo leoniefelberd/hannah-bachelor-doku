@@ -1303,6 +1303,118 @@
         "Zeit"
       ],
       "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_7508.mp4",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Ausstellen"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "video",
+      "videolink": "img/kw-19-pausenuhr-3-minute-pixelig-4-mitgrid-invert.mp4",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "video",
+      "videolink": "img/kw-19-pausenuhr-3-minute-pixelig.mp4",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.49.56.png",
+      "kategorie": [
+        "Zeit"
+      ],
+      "kalenderwoche": "KW 20"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-19-um-22.52.23.jpg",
+      "kategorie": [
+        "Zeit",
+        "Sammeln",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 20"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7570.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Uhr",
+        "Zeiger",
+        "Struggle"
+      ],
+      "kalenderwoche": "KW 20"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7572.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Zeiger",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 20"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7579.jpg",
+      "kategorie": [
+        "Zeit",
+        "Struggle",
+        "Zeiger",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 20"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_7568.mp4",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 20"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7574.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 20"
+    },
+    {
+      "type": "image",
+      "image": "img/kw-21-zeitung-seitenplan-350x500mm_hb4.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 20"
     }
   ]
 }
