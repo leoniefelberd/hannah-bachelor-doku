@@ -24,8 +24,7 @@ collections:
                     label: "Filter"
                     widget: "select"
                     multiple: true
-                    options: ["Zeit", "Zeitung", "Zeiger", "Zeneggen", "Uhr", "Testen", "Sammeln", "Schatten", "Schreiben", "Sonne", "Recherchieren", "Projizieren", "Natur", "Notizen", "Miro", "Lesen", "Loading bar", "Kalender", "Gefundenes", "Fail", "Endspurt
-                         ", "Experimentieren", "Beobachten", "Ausstellen"]
+                    options: ["Zeit", "Zeitung", "Zeiger", "Zeneggen", "Uhr", "Testen", "Sammeln", "Schatten", "Schreiben", "Sonne", "Struggle", "Recherchieren", "Projizieren", "Natur", "Notizen", "Miro", "Lesen", "Loading", "Kalender", "Gefundenes", "Endspurt", "Experimentieren", "Beobachten", "Ausstellen"]
                   - name: kalenderwoche
                     label: "KW"
                     widget: "select"
@@ -40,8 +39,7 @@ collections:
                     label: "Filter"
                     widget: "select"
                     multiple: true
-                    options: ["Zeit", "Zeitung", "Zeiger", "Zeneggen", "Uhr", "Testen", "Sammeln", "Schatten", "Schreiben", "Sonne", "Recherchieren", "Projizieren", "Natur", "Notizen", "Miro", "Lesen", "Loading bar", "Kalender", "Gefundenes", "Fail", "Endspurt
-                         ", "Experimentieren", "Beobachten", "Ausstellen"]
+                    options: ["Zeit", "Zeitung", "Zeiger", "Zeneggen", "Uhr", "Testen", "Sammeln", "Schatten", "Schreiben", "Sonne", "Struggle", "Recherchieren", "Projizieren", "Natur", "Notizen", "Miro", "Lesen", "Loading", "Kalender", "Gefundenes", "Endspurt", "Experimentieren", "Beobachten", "Ausstellen"]
                   - name: kalenderwoche
                     label: "KW"
                     widget: "select"
