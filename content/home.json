@@ -940,6 +940,15 @@
         "Experimentieren"
       ],
       "kalenderwoche": "KW 13"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7402.jpg",
+      "kategorie": [
+        "Zeit",
+        "Gefundenes"
+      ],
+      "kalenderwoche": "KW 14"
     }
   ]
 }
