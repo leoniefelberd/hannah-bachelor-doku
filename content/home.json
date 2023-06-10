@@ -438,6 +438,154 @@
         "Uhr"
       ],
       "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-06-13-um-13.51.43.png",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Sammeln",
+        "Loading"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-10-um-22.23.16.png",
+      "kategorie": [
+        "Zeit",
+        "Schreiben"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-20-um-20.21.44.png",
+      "kategorie": [
+        "Zeit",
+        "Schreiben",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-06-13-um-12.12.01.jpg",
+      "kategorie": [
+        "Zeit",
+        "Sammeln",
+        "Kalender"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-06-13-um-22.04.49.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Sammeln"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-06-15-um-12.24.55.jpg",
+      "kategorie": [
+        "Zeit",
+        "Miro"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "video",
+      "videolink": "img/bildschirmvideo-aufnehmen-5783-06-13-um-15.43.16.mp4",
+      "kategorie": [
+        "Zeit",
+        "Loading",
+        "Gefundenes"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-06-15-um-13.20.49.jpg",
+      "kategorie": [
+        "Zeit",
+        "Notizen",
+        "Kalender"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-08-um-21.14.15.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Sammeln"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-08-um-21.19.44.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Sammeln"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "video",
+      "videolink": "img/happy-hour.mp4",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/img_6988.png",
+      "kategorie": [
+        "Zeit",
+        "Gefundenes"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/img_6995.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Gefundenes"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/lbs_sr04-036276.jpg",
+      "kategorie": [
+        "Zeit",
+        "Sammeln",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/pk_001316.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Sammeln"
+      ],
+      "kalenderwoche": "KW 10"
     }
   ]
 }
