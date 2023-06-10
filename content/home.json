@@ -1112,6 +1112,79 @@
         "Experimentieren"
       ],
       "kalenderwoche": "KW 16"
+    },
+    {
+      "type": "image",
+      "image": "img/12erteilunguebersicht.jpg",
+      "kategorie": [
+        "Zeit"
+      ],
+      "kalenderwoche": "KW 17"
+    },
+    {
+      "type": "image",
+      "image": "img/_mg_6532.jpg",
+      "kategorie": [
+        "Zeit",
+        "Projizieren",
+        "Uhr",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 17"
+    },
+    {
+      "type": "video",
+      "videolink": "img/mvi_6533.mp4",
+      "kategorie": [
+        "Zeit",
+        "Projizieren",
+        "Uhr",
+        "Zeiger"
+      ],
+      "kalenderwoche": "KW 17"
+    },
+    {
+      "type": "video",
+      "videolink": "img/komp-1.mp4",
+      "kategorie": [
+        "Zeit",
+        "Projizieren",
+        "Schatten",
+        "Uhr",
+        "Zeiger"
+      ],
+      "kalenderwoche": "KW 17"
+    },
+    {
+      "type": "video",
+      "videolink": "img/mvi_6543__2.mp4",
+      "kategorie": [
+        "Zeit",
+        "Schatten",
+        "Projizieren",
+        "Uhr",
+        "Zeiger"
+      ],
+      "kalenderwoche": "KW 17"
+    },
+    {
+      "type": "video",
+      "videolink": "img/mvi_6556.mp4",
+      "kategorie": [
+        "Zeit",
+        "Projizieren",
+        "Zeiger"
+      ],
+      "kalenderwoche": "KW 17"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-13.42.20.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeiger"
+      ],
+      "kalenderwoche": "KW 17"
     }
   ]
 }
