@@ -1050,6 +1050,68 @@
         "Uhr"
       ],
       "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "image",
+      "image": "img/baumring-tag-3.gif",
+      "kategorie": [
+        "Zeit",
+        "Experimentieren",
+        "Kalender",
+        "Natur"
+      ],
+      "kalenderwoche": "KW 16"
+    },
+    {
+      "type": "image",
+      "image": "img/ueberlagerung_1.gif",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 16"
+    },
+    {
+      "type": "image",
+      "image": "img/finger-1.gif",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 16"
+    },
+    {
+      "type": "image",
+      "image": "img/finger-2.gif",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 16"
+    },
+    {
+      "type": "image",
+      "image": "img/finger-trippy.gif",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 16"
+    },
+    {
+      "type": "video",
+      "videolink": "img/sonnenuhrmitpause.mov",
+      "kategorie": [
+        "Zeit",
+        "Schatten",
+        "Uhr",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 16"
     }
   ]
 }
