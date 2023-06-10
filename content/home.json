@@ -838,6 +838,108 @@
         "Experimentieren"
       ],
       "kalenderwoche": "KW 11"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-07-02-um-10.29.57.png",
+      "kategorie": [
+        "Zeit",
+        "Miro",
+        "Schreiben"
+      ],
+      "kalenderwoche": "KW 12"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-07-05-um-09.56.01.jpg",
+      "kategorie": [
+        "Zeit",
+        "Miro",
+        "Schreiben"
+      ],
+      "kalenderwoche": "KW 12"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7341.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 13"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7342.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 13"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7360.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 13"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_7348.mp4",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Experimentieren",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 13"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7378.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Uhr",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 13"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7369.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 13"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7387.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 13"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_7409.mp4",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 13"
     }
   ]
 }
