@@ -1415,6 +1415,74 @@
         "Testen"
       ],
       "kalenderwoche": "KW 20"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7604.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 21"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-08-um-18.14.50.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung"
+      ],
+      "kalenderwoche": "KW 21"
+    },
+    {
+      "type": "image",
+      "image": "img/ausstellungs-entwurf-finale-23.jpg",
+      "kategorie": [
+        "Zeit",
+        "Ausstellen"
+      ],
+      "kalenderwoche": "KW 21"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7621.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Projizieren",
+        "Ausstellen"
+      ],
+      "kalenderwoche": "KW 21"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7640.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Uhr",
+        "Ausstellen"
+      ],
+      "kalenderwoche": "KW 21"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7646.jpg",
+      "kategorie": [
+        "Zeit",
+        "Ausstellen"
+      ],
+      "kalenderwoche": "KW 21"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7648.jpg",
+      "kategorie": [
+        "Zeit",
+        "Gefundenes"
+      ],
+      "kalenderwoche": "KW 21"
     }
   ]
 }
