@@ -331,6 +331,103 @@
         "Sammeln"
       ],
       "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-08-um-21.02.37.png",
+      "kategorie": [
+        "Zeit",
+        "Schreiben"
+      ],
+      "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-08-um-21.02.45.png",
+      "kategorie": [
+        "Zeit",
+        "Schreiben",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-08-um-21.00.46.jpg",
+      "kategorie": [
+        "Zeit",
+        "Schreiben"
+      ],
+      "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-08-um-21.02.24.png",
+      "kategorie": [
+        "Zeit",
+        "Schreiben"
+      ],
+      "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-20-um-22.29.26.jpg",
+      "kategorie": [
+        "Zeit",
+        "Sammeln"
+      ],
+      "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "image",
+      "image": "img/img_6959.jpg",
+      "kategorie": [
+        "Zeit",
+        "Gefundenes",
+        "Uhr",
+        "Loading"
+      ],
+      "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-06-12-um-18.15.20.gif",
+      "kategorie": [
+        "Zeit",
+        "Schreiben",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_6847-1-.mp4",
+      "kategorie": [
+        "Zeit",
+        "Beobachten",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_6945.mp4",
+      "kategorie": [
+        "Zeit",
+        "Uhr",
+        "Beobachten"
+      ],
+      "kalenderwoche": "KW 9"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_6944.mp4",
+      "kategorie": [
+        "Zeit",
+        "Experimentieren",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 9"
     }
   ]
 }
