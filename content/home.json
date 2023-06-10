@@ -949,6 +949,107 @@
         "Gefundenes"
       ],
       "kalenderwoche": "KW 14"
+    },
+    {
+      "type": "image",
+      "image": "img/kw-15-alternativemodesoftimepassing.jpg",
+      "kategorie": [
+        "Zeit",
+        "Notizen"
+      ],
+      "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-13.12.36.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-08-10-um-14.49.31.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-08-10-um-14.49.38.jpg",
+      "kategorie": [
+        "Zeit",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "image",
+      "image": "img/TASCHENLAMPE-2.gif",
+      "kategorie": [
+        "Zeit",
+        "Schatten",
+        "Projizieren",
+        "Zeiger"
+      ],
+      "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7427.jpg",
+      "kategorie": [
+        "Zeit",
+        "Schatten",
+        "Projizieren",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "image",
+      "image": "img/ebene-1.jpg",
+      "kategorie": [
+        "Zeit",
+        "Schatten",
+        "Projizieren",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "video",
+      "videolink": "img/mvi_6492.mp4",
+      "kategorie": [
+        "Zeit",
+        "Projizieren",
+        "Experimentieren",
+        "Zeiger"
+      ],
+      "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "video",
+      "videolink": "img/mvi_6494.mp4",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Projizieren",
+        "Experimentieren"
+      ],
+      "kalenderwoche": "KW 15"
+    },
+    {
+      "type": "video",
+      "videolink": "img/bildschirmvideo-aufnehmen-5783-07-23-um-14.09.51.mp4",
+      "kategorie": [
+        "Zeit",
+        "Gefundenes",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 15"
     }
   ]
 }
