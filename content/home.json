@@ -1185,6 +1185,124 @@
         "Zeiger"
       ],
       "kalenderwoche": "KW 17"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.10.01.jpg",
+      "kategorie": [
+        "Zeit",
+        "Ausstellen",
+        "Notizen"
+      ],
+      "kalenderwoche": "KW 18"
+    },
+    {
+      "type": "image",
+      "image": "img/img_4658.jpg",
+      "kategorie": [
+        "Zeit",
+        "Gefundenes",
+        "Sonne",
+        "Uhr",
+        "Zeiger"
+      ],
+      "kalenderwoche": "KW 18"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.10.24.jpg",
+      "kategorie": [
+        "Zeit"
+      ],
+      "kalenderwoche": "KW 18"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.10.37.jpg",
+      "kategorie": [
+        "Zeit"
+      ],
+      "kalenderwoche": "KW 18"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.12.48.png",
+      "kategorie": [
+        "Zeit"
+      ],
+      "kalenderwoche": "KW 18"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.13.43.png",
+      "kategorie": [
+        "Zeit"
+      ],
+      "kalenderwoche": "KW 18"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7560.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7553.jpg",
+      "kategorie": [
+        "Zeit",
+        "Ausstellen"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.25.23.jpg",
+      "kategorie": [
+        "Zeit",
+        "Ausstellen"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.32.11.png",
+      "kategorie": [
+        "Zeit",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.21.15.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Ausstellen"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.46.36.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Ausstellen"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "image",
+      "image": "img/grids-scans.gif",
+      "kategorie": [
+        "Zeit"
+      ],
+      "kalenderwoche": "KW 19"
     }
   ]
 }
