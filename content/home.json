@@ -1424,6 +1424,16 @@
       "kalenderwoche": "KW 20"
     },
     {
+      "type": "image",
+      "image": "img/tests-laser.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Notizen"
+      ],
+      "kalenderwoche": "KW 20"
+    },
+    {
       "type": "video",
       "videolink": "img/img_7568.mp4",
       "kategorie": [
