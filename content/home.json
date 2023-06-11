@@ -1483,6 +1483,75 @@
         "Gefundenes"
       ],
       "kalenderwoche": "KW 21"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7649.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7650.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Zeitung"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7667.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-19-um-23.17.58.png",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7770.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Zeitung"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-21-um-23.22.50.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-19-um-23.09.54.png",
+      "kategorie": [
+        "Zeit",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 22"
     }
   ]
 }
