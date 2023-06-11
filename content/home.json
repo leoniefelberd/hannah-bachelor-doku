@@ -1486,6 +1486,17 @@
     },
     {
       "type": "image",
+      "image": "img/img_7667.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "image",
       "image": "img/img_7649.jpg",
       "kategorie": [
         "Zeit",
@@ -1505,13 +1516,12 @@
       "kalenderwoche": "KW 22"
     },
     {
-      "type": "image",
-      "image": "img/img_7667.jpg",
+      "type": "video",
+      "videolink": "img/img_7674_1-2.mp4",
       "kategorie": [
         "Zeit",
         "Zeitung",
-        "Testen",
-        "Endspurt"
+        "Testen"
       ],
       "kalenderwoche": "KW 22"
     },
@@ -1545,11 +1555,60 @@
       "kalenderwoche": "KW 22"
     },
     {
+      "type": "video",
+      "videolink": "img/bildschirmvideo-aufnehmen-5783-09-19-um-23-12-24-2.mp4",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
       "type": "image",
       "image": "img/bildschirmfoto-5783-09-19-um-23.09.54.png",
       "kategorie": [
         "Zeit",
         "Uhr"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_7686.mp4",
+      "kategorie": [
+        "Zeit",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7689.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Struggle"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_7711.mp4",
+      "kategorie": [
+        "Zeit",
+        "Ausstellen",
+        "Testen"
+      ],
+      "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_7674-2-2.mp4",
+      "kategorie": [
+        "Zeit",
+        "Ausstellen",
+        "Testen"
       ],
       "kalenderwoche": "KW 22"
     }
