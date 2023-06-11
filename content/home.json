@@ -1445,6 +1445,15 @@
     },
     {
       "type": "image",
+      "image": "img/bildschirmfoto-5783-09-22-um-22.21.03.png",
+      "kategorie": [
+        "Zeit",
+        "Zeitung"
+      ],
+      "kalenderwoche": "KW 20"
+    },
+    {
+      "type": "image",
       "image": "img/kw-21-zeitung-seitenplan-350x500mm_hb4.jpg",
       "kategorie": [
         "Zeit",
