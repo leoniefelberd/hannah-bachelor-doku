@@ -522,8 +522,9 @@
       "image": "img/bildschirmfoto-5783-06-15-um-13.20.49.jpg",
       "kategorie": [
         "Zeit",
-        "Notizen",
-        "Kalender"
+        "Kalender",
+        "Struggle",
+        "Notizen"
       ],
       "kalenderwoche": "KW 10"
     },
@@ -533,6 +534,15 @@
       "kategorie": [
         "Zeit",
         "Uhr",
+        "Sammeln"
+      ],
+      "kalenderwoche": "KW 10"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-22-um-22.26.33.jpg",
+      "kategorie": [
+        "Zeit",
         "Sammeln"
       ],
       "kalenderwoche": "KW 10"
