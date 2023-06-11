@@ -1207,6 +1207,24 @@
     },
     {
       "type": "image",
+      "image": "img/bildschirmfoto-5783-09-22-um-22.22.49.png",
+      "kategorie": [
+        "Zeit",
+        "Notizen"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-22-um-22.23.35.png",
+      "kategorie": [
+        "Zeit",
+        "Notizen"
+      ],
+      "kalenderwoche": "KW 19"
+    },
+    {
+      "type": "image",
       "image": "img/bildschirmfoto-5783-09-18-um-22.10.01.jpg",
       "kategorie": [
         "Zeit",
