@@ -225,10 +225,10 @@
       "image": "img/bildschirmfoto-5783-09-19-um-23.33.00.jpg",
       "kategorie": [
         "Zeit",
-        "Sammeln",
         "Sonne",
         "Beobachten",
-        "Natur"
+        "Natur",
+        "Sammeln"
       ],
       "kalenderwoche": "KW 8"
     },
@@ -610,9 +610,9 @@
       "image": "img/bildschirmfoto-5783-06-27-um-09.56.51.jpg",
       "kategorie": [
         "Zeit",
-        "Zeneggen",
         "Experimentieren",
-        "Schreiben"
+        "Schreiben",
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -632,10 +632,10 @@
       "image": "img/bildschirmfoto-5783-09-18-um-11.47.03.jpg",
       "kategorie": [
         "Zeit",
+        "Experimentieren",
         "Uhr",
         "Zeneggen",
-        "Struggle",
-        "Experimentieren"
+        "Struggle"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -644,9 +644,9 @@
       "image": "img/_mg_6344.jpg",
       "kategorie": [
         "Zeit",
-        "Zeneggen",
         "Struggle",
-        "Experimentieren"
+        "Experimentieren",
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -655,9 +655,9 @@
       "image": "img/bildschirmfoto-5783-06-21-um-00.17.41.jpg",
       "kategorie": [
         "Zeit",
-        "Zeneggen",
+        "Experimentieren",
         "Kalender",
-        "Experimentieren"
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -676,10 +676,10 @@
       "image": "img/bildschirmfoto-5783-09-18-um-11.49.22.jpg",
       "kategorie": [
         "Zeit",
-        "Zeneggen",
-        "Natur",
         "Sonne",
-        "Beobachten"
+        "Beobachten",
+        "Natur",
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -688,10 +688,10 @@
       "image": "img/bildschirmfoto-5783-09-18-um-11.50.19.png",
       "kategorie": [
         "Zeit",
-        "Uhr",
-        "Zeneggen",
         "Sonne",
-        "Beobachten"
+        "Beobachten",
+        "Zeneggen",
+        "Uhr"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -700,12 +700,12 @@
       "image": "img/_mg_6468.jpg",
       "kategorie": [
         "Zeit",
-        "Zeiger",
-        "Uhr",
         "Schatten",
         "Zeneggen",
         "Sonne",
-        "Experimentieren"
+        "Experimentieren",
+        "Zeiger",
+        "Uhr"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -714,11 +714,11 @@
       "image": "img/_mg_6451.jpg",
       "kategorie": [
         "Zeit",
-        "Zeiger",
-        "Zeneggen",
-        "Uhr",
         "Sonne",
-        "Experimentieren"
+        "Experimentieren",
+        "Zeiger",
+        "Uhr",
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -727,13 +727,14 @@
       "image": "img/img_7272.jpg",
       "kategorie": [
         "Uhr",
-        "Zeit",
         "Zeneggen",
         "Schatten",
         "Sonne",
         "Struggle",
         "Beobachten",
-        "Experimentieren"
+        "Experimentieren",
+        "Zeit",
+        "Zeiger"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -742,10 +743,10 @@
       "image": "img/bildschirmfoto-5783-09-18-um-12.21.11.jpg",
       "kategorie": [
         "Zeit",
-        "Zeneggen",
         "Beobachten",
         "Schatten",
-        "Sonne"
+        "Sonne",
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -754,8 +755,8 @@
       "image": "img/img_7050.jpg",
       "kategorie": [
         "Zeit",
-        "Zeneggen",
-        "Struggle"
+        "Struggle",
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -776,10 +777,10 @@
       "image": "img/zapfenkalender.gif",
       "kategorie": [
         "Zeit",
-        "Zeneggen",
-        "Kalender",
         "Natur",
-        "Experimentieren"
+        "Experimentieren",
+        "Kalender",
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -788,8 +789,8 @@
       "image": "img/_mg_6479.jpg",
       "kategorie": [
         "Zeit",
-        "Zeneggen",
-        "Experimentieren"
+        "Experimentieren",
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
@@ -830,10 +831,10 @@
       "image": "img/img_7197.jpg",
       "kategorie": [
         "Zeit",
-        "Zeneggen",
         "Experimentieren",
         "Beobachten",
-        "Struggle"
+        "Struggle",
+        "Zeneggen"
       ],
       "kalenderwoche": "KW 11"
     },
