@@ -1611,6 +1611,150 @@
         "Testen"
       ],
       "kalenderwoche": "KW 22"
+    },
+    {
+      "type": "video",
+      "videolink": "img/img_7763_2-2.mp4",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7767.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7764.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7773.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Testen",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-18-um-22.49.03.png",
+      "kategorie": [
+        "Zeit",
+        "Zeitung",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/bildschirmfoto-5783-09-16-um-17.47.25.jpg",
+      "kategorie": [
+        "Zeit",
+        "Endspurt",
+        "Notizen"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7716.jpg",
+      "kategorie": [
+        "Zeit",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7736.jpg",
+      "kategorie": [
+        "Zeit",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7726.jpg",
+      "kategorie": [
+        "Zeit",
+        "Struggle",
+        "Endspurt",
+        "Zeiger"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7735.jpg",
+      "kategorie": [
+        "Zeit",
+        "Testen",
+        "Uhr",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7740.jpg",
+      "kategorie": [
+        "Zeit",
+        "Endspurt",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7739.jpg",
+      "kategorie": [
+        "Zeit",
+        "Endspurt",
+        "Uhr"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7754.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
+    },
+    {
+      "type": "image",
+      "image": "img/img_7747.jpg",
+      "kategorie": [
+        "Zeit",
+        "Zeiger",
+        "Endspurt"
+      ],
+      "kalenderwoche": "KW 23"
     }
   ]
 }
