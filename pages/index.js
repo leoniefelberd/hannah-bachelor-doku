@@ -158,6 +158,10 @@ export default function Home(props) {
                 // var new_rz = data[n].rotate_z + angle * y / space;		// calculate new position of n th item
 
                 var elementN = document.getElementById(n);
+
+                var filterelement = document.getElementById('filterwrapper');
+                // console.log("if click on filterelement", filterelement.onclick == true)
+                // filterelement.onclick = function () { jumpTo(1) };
                 // console.log("elementN", elementN, n)
                 elementN.onclick = function () { jumpTo(n) };
                 // animate n th item with CSS3 translate3d and rotate3d methods
@@ -228,15 +232,17 @@ export default function Home(props) {
             </Head>
 
             {/* hello hannah doku */}
+<div id="filterwrapper">
+<FilterElement  props={allKategories} filter={filter} addMoreItem={addMoreItem} setFilter={setFilter} />
 
-            <FilterElement props={allKategories} filter={filter} addMoreItem={addMoreItem} setFilter={setFilter} />
-
+</div>
+           
             <div class="sitetitlewrapper">
                 <div class="mobileinfo">
                     Bitte schaue die Website am Laptop an! :)
                 </div>
                 <div class="sitetitle">
-                    other times <br></br> 
+                    other times <br></br>
                     <br></br>
                     Dokumentation<br></br>
                     Bachelorthesis 2023<br></br>
@@ -262,6 +268,8 @@ export default function Home(props) {
                             <> */}
                     {home.galery.map((slideImage, index) => {
 
+                        // console.log("anzahl filter", slideImage.kategorie.length)
+
                         let zindexindividual = pageSize + 100 - index;
 
                         let showdefinition = "block";
@@ -271,7 +279,7 @@ export default function Home(props) {
                             showdefinition = "block"
                             // console.log("no filter aktiv, alle darstellen")
                         }
-                        else if (filter[0] == slideImage.kategorie[0] || filter[0] == slideImage.kategorie[1]) {
+                        else if (filter[0] == slideImage.kategorie[0] || filter[0] == slideImage.kategorie[1] || filter[0] == slideImage.kategorie[2] || filter[0] == slideImage.kategorie[3] || filter[0] == slideImage.kategorie[4] || filter[0] == slideImage.kategorie[5] || filter[0] == slideImage.kategorie[6] || filter[0] == slideImage.kategorie[7] || filter[0] == slideImage.kategorie[8] || filter[0] == slideImage.kategorie[9] || filter[0] == slideImage.kategorie[10]){
                             // console.log(filter, slideImage.kategorie)
                             showdefinition = "block"
                         } else {
@@ -342,7 +350,7 @@ export default function Home(props) {
             </div>
 
             <div class="zeitstrahlwrapper">
-            KW23
+                KW23
                 <img
                     class="zeitstrahl"
                     src="../img/Weg-allblack.png"
