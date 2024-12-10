@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/leoniefelberd/hannah-bachelor-doku#readme",
   "dependencies": {
-    "next": "^13.4.3",
+    "next": "^15.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-player": "^2.12.0",
